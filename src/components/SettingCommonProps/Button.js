@@ -1,6 +1,14 @@
 import React from "react";
 
-const Button = ({ onClick, color, border, backGround, display, count }) => {
+const Button = ({
+  onClick,
+  color,
+  border,
+  backGround,
+  display,
+  count,
+  underline,
+}) => {
   return (
     <div
       onClick={onClick}
@@ -9,6 +17,7 @@ const Button = ({ onClick, color, border, backGround, display, count }) => {
         borderRadius: border,
         background: backGround,
         display: display,
+        textDecoration: underline,
       }}
     >
       <h1>Hi, Click me to inclement {count}</h1>

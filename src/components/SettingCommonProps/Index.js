@@ -7,6 +7,7 @@ const Index = () => {
   const props = {
     border: "1px solid gray",
     backGround: "gray",
+    underline: "underline",
   };
 
   return (
